@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>BREW AND BEANS</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="../CSS/coursework.css">
+            <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+
+        <body class="showBag">
+            
+            <!--top navigation bar-->
+            <div class="topnav">
+                <input id="sb" type="search" placeholder=" Search....">
+                <label for="sbb">
+                <button id="sbb" class="btn"><img src="../Images/searchx.png" alt="search icon"></button></label>
+                <button class="btn" id="cartButton" onclick="toggleCart()">
+                    <img src="../Images/bagx.png" alt="mybag">
+                    <span class="cartIcon">0</span>
+                </button>
+                <button class="btn" onclick="window.location.href='loginpage.html'"><img src="../Images/userx.png" alt="profile"></button>
+                <div class="more">
+                <button class="btn"><img src="../Images/morex.png" alt="more"></button>
+            
+                <div class="more-dropdown">
+                    <a href="../HTML/aboutus.html">ABOUT US</a>
+                    <a href="../HTML/event.html">EVENTS</a>
+                </div>
+                </div>
+            </div>
+            
+
+            
+            <!--logo of the shop-->
+            <img id="logo" src="../Images/logo.png" alt="site logo"> 
+            
+
+
+            <!--menu navigation bar-->
+            <nav class="navbar"> 
+                <ul>
+                    <li class="categories"><button class="icons"><img src="../Images/homex.png" alt="home"></button><br/><a href="coursework.html">HOME</a></li>
+                    <li class="categories"><button class="icons"><img src="../Images/flashx.png" alt="promotions"></button><br/><a href="promotions.html">PROMOTIONS</a></li>
+                    <li id="name">BREW & BEANS</li>
+                    <div class="dropdown">
+                    <li class="categories"><button class="icons"><img src="../Images/menux.png" alt="menu"></button><br/><a href="#menu">MENU</a>
+                        <div class="dropdown-content">
+                            <a href="../HTML/food.html">FOOD</a>
+                            <a href="../HTML/beverages.html">BEVERAGES</a>
+                            <a href="../HTML/desserts.html">DESSERTS</a>
+                        </div>
+                    </li>
+                    </div>
+                    <li class="categories"><button class="icons"><img src="../Images/phone.png" alt="contact"></button><br/><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+          
+            <!--image slider-->
+            <div class="slider">
+                <div class="figures">
+                    <div class="slide">
+                        <img src="../Images/xx257e0484355f2adc0974ea5939a658e9.jpg" alt="burger image">
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="../Images/xxxx4ee9b020d9dba55efc00dc0633da6c3b.jpg" alt="sandwich">
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="../Images/xxpastel-macarons-new.png" alt="macarons">
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="../Images/xxe019b23436e25ee8a62d6a7bb0c75b0d.jpg" alt="coffee image">
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="../Images/xacb6f6e404ef51eb4190e76c8594a06e.jpg" alt="cooking">
+                    </div>
+                </div> 
+            </div>
+            
+        
+
+
+            
+            <!--main page promotions-->
+           <div class="home">
+            <section class="best-seller">
+                <img id="bs" src="../Images/0fce2bdb4aed7413fb131bd0506fbd2e.jpg" alt="caramel latte">
+                <h1 id="week-fav">This Week's Favourite</h1>
+
+                <h4 id="best-item">Caramel Latte <br/> $7.00</h4>
+                
+                <button class="try-it" onclick="goToBeveragePage()">Give it a taste</button>
+                
+            </section>
+
+
+            <section class="deals">
+                <img id="pro" src="../Images/promotion.png" alt="food combo">
+                    <h1 id="combo-deal">Combo Specials</h1>
+    
+                    <h4 id="combo-items"> 4 chocolte croissants  + 2 cappuccinos <br/> $25.00 </h4>
+                    
+                    <button class="try-it">Try Our Combos!</button>
+                       
+            </section>
+            </div>
+
+
+
+
+
+
+            <!--cart display-->
+            <div class="bagTab" id="cart">
+                <div class="showBag">
+                <h1>Shopping Bag</h1>
+                <div class="bagList" id="bagList">
+                    <div class="item">
+                        <div class="image">
+                            <img src="d1.png" alt="cheese cake">
+                        </div>
+                        <div class="name">
+                            NAME
+                        </div>
+                        <div class="totalPrice">
+                            $12.5
+                        </div>
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <div class="qty">1</div>
+                            <button class="plus">+</button>
+                        </div>
+                    </div>
+                        </div>
+                            <div class="bagBtn">
+                            <div class="close" id="close" onclick="closeCart()">CLOSE</div>
+                            <div class="checkOut">CHECK OUT</div>
+                            </div>
+                        
+                    </div>
+                    </div>  
+                 
+
+
+
+
+                <!--footer-->>
+            
+            <footer>
+                <table>
+                    <tr><th>CONTACT US</th>
+                    <th>CONNECT WITH US</th>
+                    <th>LOCATION</th>
+                    <th>PRIVACY POLICY</th></tr>
+                    <tr>
+                        <td id="mail"><a href="mailto:amasha.20241246@iit.ac.lk.com"><address>brewnbeans@gmail.com</address></a>
+                        <td><div class="">
+                            <div class="social"><a href="https://www.facebook.com/" target="_blank"><img src="../Images/facebook1.png" alt="facebook"></a></div>
+                            <div class ="social"><a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><img src="../Images/instagram1.png" alt="instagram"></a></div>
+                            </div>
+                        </td>
+                        <td>BREWNBEANS,GARDENIA RD,COLOMBO 05</td>
+                        <td><i class="fa fa-copyright"> Copyrights 2025 BrewnBeans</i></td>
+                    </tr>
+                    <tr>
+                        <td>0710663376</td>
+                        <td></td>
+                        <td></td>
+                        <td>All Rights Reserved</td>
+                    </tr>
+                </table>              
+            </footer>
+
+
+
+
+
+            <!--java scripts-->
+            <script>
+                function goToBeveragePage() {
+                    window.location.href = '../HTML/beverages.html'; 
+                } 
+            </script>
+            
+            <script src="../JavaScript/carts.js"></script>
+
+        </body>
+    </html>

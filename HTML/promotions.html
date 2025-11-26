@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>BREW AND BEANS</title>
+            <meta charset="UTF-8">
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="../CSS/promotions.css">
+            <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+
+        <body class="showBag">
+        
+            <div class="topnav">
+                <input id="sb" type="text" placeholder=" Search....">
+                <button id="sbb" class="btn"><a href="123"><img src="../Images/searchx.png" alt="search icon"></a></button>
+                <button class="btn" id="cartButton" onclick="toggleCart()">
+                    <img src="../Images/bagx.png" alt="mybag">
+                    <span class="cartIcon">0</span>
+                </button>
+                <button class="btn"><a href="../HTML/loginpage.html"><img src="../Images/userx.png" alt="profile"></a></button>
+                <div class="more">
+                <button class="btn"><a href="123"><img src="../Images/morex.png"></a></button>
+            
+                <div class="more-dropdown">
+                    <a href="../HTML/aboutus.html">ABOUT US</a>
+                    <a href="../HTML/event.html">EVENTS</a>
+
+                </div>
+                
+                </div>
+            </div>
+            
+            
+            <img id="logo" src="../Images/logo.png" alt="site logo"> 
+            
+            <nav class="navbar">
+                
+                <ul>
+                    <li class="categories"><button class="icons"><img src="../Images/homex.png"></button><br/><a href="coursework.html">HOME</a></li>
+                    <li class="categories"><button class="icons"><img src="../Images/flashx.png"></button><br/><a href="promotions.html">PROMOTIONS</a></li>
+                    <li id="name">BREW & BEANS</li>
+                    <div class="dropdown">
+                    <li class="categories"><button class="icons"><img src="../Images/menux.png"></button><br/><a href="#menu">MENU</a></li>
+                        <button class="dropdown-content">
+                            <a href="../HTML/food.html">FOOD</a>
+                            <a href="../HTML/beverages.html">BEVERAGES</a>
+                            <a href="../HTML/desserts.html">DESSERTS</a>
+                        </button>
+                    </div>
+                    <li class="categories"><button class="icons"><img src="../Images/phone.png"></button><br/><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+          
+
+
+           
+            
+            
+                    <img id="boc" src="../Images/boc_promo.png" alt="bocDiscount">
+           
+                    <img id="promo1" src="../Images/disc1.png" alt="promotion1">
+          
+            
+                    <img id="promo2" src="../Images/disc2.png" alt="promotion2">
+               
+                    <img id="promo3" src="../Images/disc3.png" alt="promotion3">
+                
+
+        
+
+
+             <!--cart display-->
+             <div class="bagTab" id="cart">
+                <div class="showBag">
+                <h1>Shopping Bag</h1>
+                <div class="bagList" id="bagList">
+                    <div class="item">
+                        <div class="image">
+                            <img src="d1.png" alt="cheese cake">
+                        </div>
+                        <div class="name">
+                            NAME
+                        </div>
+                        <div class="totalPrice">
+                            $12.5
+                        </div>
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <div class="qty">1</div>
+                            <button class="plus">+</button>
+                        </div>
+                    </div>
+                        </div>
+                            <div class="bagBtn">
+                            <div class="close" id="close" onclick="closeCart()">CLOSE</div>
+                            <div class="checkOut">CHECK OUT</div>
+                            </div>
+                        
+                    </div>
+                    </div>  
+                </div>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <footer>
+                <table>
+                    <tr><th>CONTACT US</th>
+                    <th>CONNECT WITH US</th>
+                    <th>LOCATION</th>
+                    <th>PRIVACY POLICY</th></tr>
+                    <tr>
+                        <td id="mail"><a href="mailto:amasha.20241246@iit.ac.lk.com"><address>brewnbeans@gmail.com</address></a>
+                        <td><div class="">
+                            <div class="social"><a href="https://www.facebook.com/" target="_blank"><img src="../Images/facebook1.png"></a></div>
+
+                            <div class="social"><a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><img src="../Images/instagram1.png"></a></div>
+                            </div>
+                        </td>
+                        <td>BREWNBEANS,GARDENIA RD,COLOMBO 05</td>
+                        <td><i class="fa fa-copyright"> Copyrights 2025 BrewnBeans</i></td>
+                    </tr>
+                    <tr>
+                        <td>0710663376</td>
+                        <td></td>
+                        <td></td>
+                        <td>All Rights Reserved</td>
+                    </tr>
+                </table>              
+            </footer>
+
+            <script src="../JavaScript/carts.js"></script>
+        </body>
+    </html>

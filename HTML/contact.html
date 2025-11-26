@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+        <head>
+            <title>BREW AND BEANS</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="../CSS/contact.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+
+        <body class="showBag">
+            <header>
+            <div class="nav">
+            <div class="topnav">
+                <input id="sb" type="text" placeholder=" Search....">
+                <button id="sbb"><img src="../Images/searchx.png" alt="search"></button>
+                <button class="btn" id="cartButton" onclick="toggleCart()">
+                    <img src="../Images/bagx.png" alt="mybag">
+                    <span class="cartIcon">0</span>
+                </button>
+                <button class="btn"><a href="../HTML/loginpage.html"><img src="../Images/userx.png" alt="profile"></a></button>
+                <div class="more">
+                    <button class="btn"><img src="../Images/morex.png" alt="more"></i>
+                    <div class="more-dropdown">
+                        <a href="../HTML/aboutus.html">ABOUT US</a>
+                        <a href="../HTML/event.html">EVENTS</a>
+                    </div>
+                    </button>
+                </div>
+            </div>
+            
+            <img id="logo" src="../Images/logo.png" alt="logo">  
+            
+            
+            
+            <nav class="navbar">
+                <ul>
+                    <li id="name">BREW & BEANS</li>
+                    <li class="categories"><button class="icons"><img src="../Images/homex.png" alt="home"></button><br/><a href="../HTML/coursework.html">HOME</a></li>
+                    <li class="categories"><button class="icons"><img src="../Images/flashx.png" alt="promotions"></button><br/><a href="../HTML/promotions.html">PROMOTIONS</a></li>
+                    <div class="dropdown">
+                    <li class="categories"><button class="icons"><img src="../Images/menux.png" alt="menu"></button><br/><a href="#menu">MENU</a></li>
+                        <div class="dropdown-content">
+                            <a href="../HTML/food.html">FOOD</a>
+                            <a href="../HTML/beverages.html">BEVERAGES</a>
+                            <a href="../HTML/desserts.html">DESSERTS</a>
+                        </div>
+                    </div>
+                    <li class="categories"><button class="icons"><img src="../Images/phone.png" alt="contact"></button><br/><a href="../HTML/contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            </div>
+            </header>
+
+
+
+
+
+            <div class="mainimage">
+
+                <img id="buildings" src="../Images/6990d16106e6b6e78d581c2b0218edb4.jpg" alt="buildings">
+
+                <div id="contact">CONTACT</div>
+                <div id="navigation"><a class="navlink" href="../HTML/coursework.html">HOME</a> ><a class="navlink" href="../HTML/contact.html"> CONTACT</a></div>
+            </div>
+
+
+
+
+
+            
+            <form class="form" onsubmit="return validateForm()">
+                
+                    <div id="leaveMessage">
+                        <h3 class="form-topic">LEAVE A MESSAGE</h3>
+                        <label for="customername" >NAME</label>
+                        <br/>
+                        <input id="customername" class="input" type="text" name="customername">
+                        <br/>
+                        <br/>
+                        <label for="email">EMAIL</label>
+                        <br/>
+                        <input id="email" class="input" type="text" name="email">
+                        <br/>
+                        <br/>
+                        <label for="mobile">MOBILE</label>
+                        <br/>
+                        <input id="mobile" class="input" type="tel" name="mobile">
+                        <br/>
+                        <br/>
+                        <label for="message">MESSAGE</label>
+                        <br/>
+                        <textarea id="message" class="input" type="text" name="message" placeholder="Write a message here..."></textarea>
+                        <br/>
+                        <button id="submit" type="submit" onsubmit="return validateForm()">SUBMIT</button>
+                    </div>
+            </form>
+            
+
+            
+
+            <img id="letters" src="../Images/bf5c22366d52ffd0644fe45d7769b18e.jpg" alt="letters">
+
+
+
+
+            <div class="mapContainer">
+                <div id="visitUs">Visit Us At</div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4107.755870687838!2d79.85308869760308!3d6.895318510844436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25bdee494e9d3%3A0x629c2df0a6d82f99!2sIIT%20School%20Of%20Computing!5e0!3m2!1sen!2slk!4v1743822812504!5m2!1sen!2slk" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+
+
+
+            <div id="details">
+                <div class="headings"><img src="../Images/map.png"> LOCATION</div>
+                <div class="description">
+                    brewnbeans,<br/>gardenia rd,<br/>colombo 05
+                </div>
+                <div class="headings"><img src="../Images/phone-call.png"> TELEPHONE</div>
+                <div class="description">0710663376</div>
+                <div class="headings"><img src="../Images/communication.png">  EMAIL</div>
+                <div class="description">brewnbeans@gmail.com</div>
+            </div>
+
+
+           <!--cart display-->
+           <div class="bagTab" id="cart">
+            <div class="showBag">
+            <h1>Shopping Bag</h1>
+            <div class="bagList" id="bagList">
+                <div class="item">
+                    <div class="image">
+                        <img src="d1.png" alt="cheese cake">
+                    </div>
+                    <div class="name">
+                        NAME
+                    </div>
+                    <div class="totalPrice">
+                        $12.5
+                    </div>
+                    <div class="quantity">
+                        <button class="minus">-</button>
+                        <div class="qty">1</div>
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                    </div>
+                        <div class="bagBtn">
+                        <div class="close" id="close" onclick="closeCart()">CLOSE</div>
+                        <div class="checkOut">CHECK OUT</div>
+                        </div>
+                    
+                </div>
+                </div>  
+            </div>  
+
+
+
+
+
+
+
+
+
+
+            
+
+            <footer>
+                <table class="footer">
+                    <tr><th>CONTACT US</th>
+                    <th>CONNECT WITH US</th>
+                    <th>LOCATION</th>
+                    <th>PRIVACY POLICY</th></tr>
+                    <tr>
+                        <td id="mail"><a href="mailto:amasha.20241246@iit.ac.lk">brewnbeans@gmail.com</a></td>
+                        <td>
+                            <button class="social"><img src="../Images/facebook1.png" alt="facebook"></button>
+                            <button class="social"><img src="../Images/instagram1.png" alt="instagram"></button>
+                        </td>
+                        <td>BREWNBEANS,GARDENIA RD,COLOMBO 05</td>
+                        <td><i class="fa fa-copyright"> Copyrights 2025 BrewnBeans</i></td>
+                    </tr>
+                    <tr>
+                        <td>0710663376</td>
+                        <td></td>
+                        <td></td>
+                        <td>All Rights Reserved</td>
+                    </tr>
+                </table>              
+            </footer>
+
+            
+
+            <script>
+                function validateForm(){
+                    const name=document.getElementById("customername").value.trim();
+                    const email=document.getElementById("email").value.trim();
+                    const mobile=document.getElementById("mobile").value.trim();
+                    const message=document.getElementById("message").value.trim();
+
+
+                    if (name === "") {
+                        alert("Please enter your name!!");
+                        return false;
+                    }
+
+                    if (email === "") {
+                        alert("Please enter your email address!!");
+                        return false;
+                    }
+                
+                            // Email format validation
+                            const mail = document.getElementById('email').value;
+                            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                                alert('Please enter a valid email address');
+                                return false;
+                            }
+
+                    if (mobile === "") {
+                        alert("Please enter your mobile number!!");
+                        return false;
+                    }
+                    
+                    // Phone number validation
+                    const phone = document.getElementById('mobile').value;
+                            if (!/^[0-9]{10}$/.test(phone)) {
+                                alert('Please enter a valid 10-digit phone number');
+                                return false;
+                            }
+                    if (message === "") {
+                        alert("Please enter your message!!");
+                        return false;
+                    }
+
+                alert("Message sent successfully");
+                }
+            </script>
+
+            <script src="../JavaScript/carts.js"></script>
+
+        </body>
+</html>

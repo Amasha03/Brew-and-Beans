@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Checkout - BREW AND BEANS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../CSS/cart.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="topnav">
+                <input id="sb" type="text" placeholder=" Search....">
+                <label for="sbb">
+                <button id="sbb"><img src="../Images/searchx.png" alt="search"></button></label>
+                <button class="btn" id="cartButton" onclick="toggleCart()">
+                    <img src="../Images/bagx.png" alt="mybag">
+                    <span class="cartIcon">0</span>
+                </button>
+                <button class="btn" onclick="window.location.href='loginpage.html'"><img src="../Images/userx.png" alt="profile"></button>
+                <div class="more">
+                    <button class="btn"><img src="../Images/morex.png" alt="more"></button>
+                    <div class="more-dropdown">
+                        <a href="../HTML/aboutus.html">ABOUT US</a>
+                        <a href="../HTML/event.html">EVENTS</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+            <img id="logo" src="../Images/logo.png" alt="logo">  
+            
+            <nav class="navbar">
+                <ul>
+                    <li id="name">BREW & BEANS</li>
+                    <li class="categories"><button class="icons"><img src="../Images/homex.png" alt="home"></button><br/><a href="../HTML/coursework.html">HOME</a></li>
+                    <li class="categories"><button class="icons"><img src="../Images/flashx.png" alt="promotions"></button><br/><a href="../HTML/promotions.html">PROMOTIONS</a></li>
+                    <div class="dropdown">
+                    <li class="categories"><button class="icons"><img src="../Images/menux.png" alt="menu"></button><br/><a href="#menu">MENU</a>
+                        <div class="dropdown-content">
+                            <a href="../HTML/food.html">FOOD</a>
+                            <a href="../HTML/beverages.html">BEVERAGES</a>
+                            <a href="../HTML/desserts.html">DESSERTS</a>
+                        </div>
+                    </li>    
+                    </div>
+                    
+                    <li class="categories"><button class="icons"><img src="../Images/phone.png" alt="contact"></button><br/><a href="../HTML/contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        
+    </header>
+    
+    <div class="mainimage">
+        <img id="money" src="../Images/9725045280f696bc72d2c12376c8f222.jpg" alt="money">
+        <div id="checkout">CHECKOUT</div>
+        <div id="navigation">
+            <a class="navlink" href="../HTML/coursework.html">HOME</a> > 
+            <a class="navlink">MY BAG</a> > 
+            <a class="navlink" href="../HTML/checkout.html">CHECKOUT</a>
+        </div>
+    </div>
+
+    
+        <form class="forms" id="checkoutForm" onsubmit="return validateForm()">
+            <div id="personal-details">
+                <h3 class="form-topic">WHO ARE WE DELIVERING TO?</h3>
+                <label for="first_name">FIRST NAME</label>
+                <br/>
+                <input id="first_name" class="input" type="text" name="first_name">
+                <br/>
+                <br/>
+                <label for="last_name">LAST NAME</label>
+                <br/>
+                <input id="last_name" class="input" type="text" name="last_name">
+                <br/>
+                <br/>
+                <label for="mobile">MOBILE</label>
+                <br/>
+                <input id="mobile" class="input" type="tel"  name="mobile">
+                <br/>
+                <br/>
+                <label for="email">EMAIL</label>
+                <br/>
+                <input id="email" class="input" type="text" name="email">
+            </div>
+       
+            <br/>
+        
+            <div id="address-details">
+                <h3 class="form-topic">WHERE SHOULD WE DELIVER IT?</h3>
+                <label for="address">ADDRESS</label>
+                <br/>
+                <input id="address" class="input" type="text" name="address">
+                <br/>
+                <br/>
+                <label for="instructions">MORE INSTRUCTIONS</label>
+                <br/>
+                <textarea id="instructions" class="input" name="instructions"></textarea>
+            </div>
+        
+            <br/>
+        
+            <div id="payment-method" onsubmit="return validateForm()">
+                <h3 class="form-topic">HOW WOULD YOU LIKE TO PAY?</h3>
+                <input id="payOnline" type="radio" name="pay" value="online">
+                <label for="payOnline">PAY ONLINE</label>
+                <br/>
+                <input id="payDelivery" type="radio" name="pay" value="delivery">
+                <label for="payDelivery">PAY ON DELIVERY</label>
+                <br/>
+                <br/>
+                <hr/>
+                <br/>
+                <div class="terms-cond">
+                <input id="TermsAndCond" type="checkbox" name="TermsAndCond">
+                <label for="TermsAndCond">I have read and agreed to the <a href="terms.html">Terms and Conditions</a></label>
+                </div>
+                <br/>
+                <br/>
+                <button id="place-order" type="submit">PLACE YOUR ORDER</button>
+                <br/>
+            </div> 
+    </form>  
+    
+        <div class="checkout-grid">
+            <div class="order-summery">
+                <h3 id="my-order">MY ORDER</h3>
+                <div class="cart-items" id="checkoutItems"></div> 
+                <div class="total" id="checkoutTotal">Total: $0.00</div>
+            </div>
+        </div>
+    
+
+    <footer>
+        <table class="footer">
+            <tr><th>CONTACT US</th>
+            <th>CONNECT WITH US</th>
+            <th>LOCATION</th>
+            <th>PRIVACY POLICY</th></tr>
+            <tr>
+                <td id="mail"><a href="mailto:amasha.20241246@iit.ac.lk">brewnbeans@gmail.com</a></td>
+                <td>
+                    <button class="social"><img src="../Images/facebook1.png" alt="facebook"></button>
+                    <button class="social"><img src="../Images/instagram1.png" alt="instagram"></button>
+                </td>
+                <td>BREWNBEANS,GARDENIA RD,COLOMBO 05</td>
+                <td><i class="fa fa-copyright"> Copyrights 2025 BrewnBeans</i></td>
+            </tr>
+            <tr>
+                <td>0710663376</td>
+                <td></td>
+                <td></td>
+                <td>All Rights Reserved</td>
+            </tr>
+        </table>              
+    </footer>
+
+    <script>
+        // Load cart items 
+        document.addEventListener('DOMContentLoaded', () => {
+            const cart = JSON.parse(localStorage.getItem('brewAndBeansCart')) || [];
+            const checkoutItems = document.getElementById('checkoutItems');
+            const checkoutTotal = document.getElementById('checkoutTotal');
+            
+            // Display cart items
+            checkoutItems.innerHTML = '';
+            let total = 0;
+            
+            if (cart.length === 0) {
+                checkoutItems.innerHTML = '<p>Your cart is empty</p>';
+            } else {
+                cart.forEach(item => {
+                    const itemElement = document.createElement('div');
+                    itemElement.className = 'cart-item';
+                    itemElement.innerHTML = `
+                        <span>${item.name} × ${item.quantity}</span>
+                        <span>$${(item.price * item.quantity).toFixed(2)}</span>
+                    `;
+                    checkoutItems.appendChild(itemElement);
+                    total += item.price * item.quantity;
+                });
+            }
+            
+            checkoutTotal.textContent = `Total: $${total.toFixed(2)}`;
+
+            
+
+            // Form validation
+            window.validateForm = function() {
+                const form = document.getElementById('checkoutForm');
+                if (!form.checkValidity()) {
+                    alert('Please fill all required fields correctly');
+                    return false;
+                }
+                
+                const name=document.getElementById('first_name').value;
+                if(name===""){
+                    alert('Please enter your name');
+                    return false;
+                }
+
+                // Phone number validation
+                const phone = document.getElementById('mobile').value;
+                if (!/^[0-9]{10}$/.test(phone)) {
+                    alert('Please enter a valid 10-digit phone number');
+                    return false;
+                }
+
+                // Email format validation
+                const email = document.getElementById('email').value;
+                if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                    alert('Please enter a valid email address');
+                    return false;
+                }
+
+                const address=document.getElementById('address').value;
+                if(address===""){
+                    alert('Please enter your address');
+                    return false;
+                }
+
+                if (!document.querySelector('input[name="pay"]:checked')) {
+                    alert('Please select a payment method');
+                    return false;
+                }
+                
+                if (!document.getElementById('TermsAndCond').checked) {
+                    alert('You must agree to the Terms and Conditions');
+                    return false;
+                }
+                
+
+                // Process order
+                processOrder(cart, total);
+                return false; 
+            };
+            
+            
+
+                
+            
+
+            function processOrder(cart, total) {
+                const formData = {
+                    firstName: document.getElementById('first_name').value,
+                    lastName: document.getElementById('last_name').value,
+                    mobile: document.getElementById('mobile').value,
+                    email: document.getElementById('email').value,
+                    address: document.getElementById('address').value,
+                    instructions: document.getElementById('instructions').value,
+                    paymentMethod: document.querySelector('input[name="pay"]:checked').value,
+                    items: cart,
+                    total: total,
+                    date: new Date().toISOString()
+                };
+                
+                console.log('Order submitted:', formData);
+                
+                // show an alert that order placed successfully
+                alert('Order placed successfully! Thank you for your purchase.');
+                
+                // Clear the cart
+                localStorage.removeItem('brewAndBeansCart');
+                
+                // Redirect to homepage
+                window.location.href = 'coursework.html';
+            }
+        });
+
+    </script>
+
+
+</body>
+</html>

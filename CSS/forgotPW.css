@@ -1,0 +1,81 @@
+body{
+    background-color:rgba(53, 22, 3,1);
+}
+
+.forgotPw{
+    margin-left: 37%;
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    
+}
+
+#lock{
+    height:15%;
+    width:15%;
+    border-radius: 100%;
+    margin-left: 40%;
+    margin-top: 10px;
+    
+}
+
+#trouble{
+    color:rgba(53, 22, 3,1);
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 20%;
+    margin-top: 0%;
+    margin-bottom: 40px;
+}
+
+#description{
+    text-align: center;
+    color: rgba(53, 22, 3,1);
+    margin-bottom: 20px;
+}
+
+
+
+input{
+    width: 80%;
+    border-radius: 5px;
+    border:2px solid rgba(53, 22, 3,1) ;
+    padding: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+#sendlink{
+    width: 80%;
+    border-radius: 5px;
+    background-color:rgba(53, 22, 3,1) ;
+    border:2px solid rgba(53, 22, 3,1) ;
+    color: white;
+    padding: 10px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#sendlink:hover{
+    background-color:rgb(78, 37, 12) ;
+    border:2px solid rgb(78, 37, 12);
+}
+
+
+#back2login{
+    width: 80%;
+    border-radius: 5px;
+    background-color:white ;
+    border:2px solid rgba(53, 22, 3,1) ;
+    color: rgba(53, 22, 3,1);
+    padding: 10px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+
+.forgotPw{
+    margin-top: 75px;
+}

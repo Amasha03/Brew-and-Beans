@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+        <head>
+            <title>BREW AND BEANS</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="../CSS/aboutus.css">
+            <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+
+        <body class="showBag">
+
+            <!--top navigation bar-->
+            <div class="topnav">
+                <input id="sb" type="search" placeholder=" Search....">
+                <button id="sbb" class="btn"><a href="123"><img src="../Images/searchx.png" alt="search icon"></a></button>
+                <button class="btn" id="cartButton" onclick="toggleCart()">
+                    <img src="../Images/bagx.png" alt="mybag">
+                    <span class="cartIcon">0</span>
+                </button>
+                <button class="btn"><a href="../HTML/loginpage.html"><img src="../Images/userx.png" alt="profile"></a></button>
+                <div class="more">
+                <button class="btn"><img src="../Images/morex.png"></button>
+            
+                <div class="more-dropdown">
+                    <a href="../HTML/aboutus.html">ABOUT US</a>
+                    <a href="../HTML/event.html">EVENTS</a>
+                </div>
+                </div>
+            </div>
+            
+
+            <!--logo of the shop-->
+            <img id="logo" src="../Images/logo.png" alt="logo">  
+            
+            
+            <!--main navigation bar-->>
+            <nav class="navbar">
+                <ul>
+                    <li id="name">BREW & BEANS</li>
+                    <li class="categories"><button class="icons"><img src="../Images/homex.png" alt="home"></button><br/><a href="../HTML/coursework.html">HOME</a></li>
+                    <li class="categories"><button class="icons"><img src="../Images/flashx.png" alt="promotions"></button><br/><a href="../HTML/coursework.html">PROMOTIONS</a></li>
+                    <div class="dropdown">
+                    <li class="categories"><button class="icons"><img src="../Images/menux.png" alt="menu"></button><br/><a href="#menu">MENU</a></li>
+                        <div class="dropdown-content">
+                            <a href="../HTML/food.html">FOOD</a>
+                            <a href="../HTML/beverages.html">BEVERAGES</a>
+                            <a href="../HTML/beverages.html">DESSERTS</a>
+                        </div>
+                    </div>
+                    <li class="categories"><button class="icons"><img src="../Images/phone.png" alt="contact"></button><br/><a href="../HTML/contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            </div>
+            </header>
+
+
+            <!--main image of the page-->
+            <div class="mainimage">
+
+                <img id="makingDesserts" src="../Images/makingdesserts2.jpg" alt="making desserts">
+                <div id="aboutus">About Us</div>
+                <div id="navigation"><a class="navlink" href="../HTML/coursework.html">HOME</a> ><a class="navlink" href="../HTML/aboutus.html"> ABOUT US</a></div>
+            </div>
+
+
+            <div class="ourStory">
+                <div id="storyTopic">OUR STORY</div>
+                <div id="story">At Brew & Beans, it all began with a simple love for two things: great coffee and good food.
+                     Founded in 2015 by two friends who shared a passion for creating cozy spaces and delicious treats, 
+                     our cafe has grown into a beloved neighborhood spot. What started as a dream to serve the perfect cup of 
+                     coffee has evolved into a place where people gather to enjoy hearty meals, decadent desserts, and unforgettable moments.
+                </div>
+                <img id="storyimg" src="../Images/teamaking.jpg" alt="making coffee">
+                
+            </div>
+
+            <div class="ourMission">
+                <img id="missionimg" src="../Images/fdcec778eed366f60a7bb5bb3b40590c.jpg" alt="baking"> 
+
+                <div id="mission">
+                    <div id="missionTopic">OUR MISSION</div>
+                    <div class="missionParagraph">
+                    We believe that food and coffee are more than just sustenance-they're an experience. 
+                    Our mission is to create a welcoming space where every sip and every bite brings joy.
+                     Whether you're here for a quick espresso, a leisurely brunch, or a slice of our famous chocolate cake, we want you to feel at home.
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <!--cart display-->
+            <div class="bagTab" id="cart">
+                <div class="showBag">
+                <h1>Shopping Bag</h1>
+                <div class="bagList" id="bagList">
+                    <div class="item">
+                        <div class="image">
+                            <img src="d1.png" alt="cheese cake">
+                        </div>
+                        <div class="name">
+                            NAME
+                        </div>
+                        <div class="totalPrice">
+                            $12.5
+                        </div>
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <div class="qty">1</div>
+                            <button class="plus">+</button>
+                        </div>
+                    </div>
+                        </div>
+                            <div class="bagBtn">
+                            <div class="close" id="close" onclick="closeCart()">CLOSE</div>
+                            <div class="checkOut">CHECK OUT</div>
+                            </div>
+                        
+                    </div>
+                    </div>  
+                </div>  
+
+
+
+
+
+            <footer>
+                <table class="footer">
+                    <tr><th>CONTACT US</th>
+                    <th>CONNECT WITH US</th>
+                    <th>LOCATION</th>
+                    <th>PRIVACY POLICY</th></tr>
+                    <tr>
+                        <td id="mail"><a href="mailto:amasha.20241246@iit.ac.lk">brewnbeans@gmail.com</a></td>
+                        <td>
+                            <button class="social"><a href="https://www.facebook.com/"><img src="../Images/facebook1.png" alt="facebook"></a></button>
+                            <button class="social"><a href="https://www.instagram.com/accounts/login/?hl=en"><img src="../Images/instagram1.png" alt="instagram"></a></button>
+                        </td>
+                        <td>BREWNBEANS,GARDENIA RD,COLOMBO 05</td>
+                        <td><i class="fa fa-copyright"> Copyrights 2025 BrewnBeans</i></td>
+                    </tr>
+                    <tr>
+                        <td>0710663376</td>
+                        <td></td>
+                        <td></td>
+                        <td>All Rights Reserved</td>
+                    </tr>
+                </table>              
+            </footer>
+
+            <script src="../JavaScript/carts.js"></script>
+
+        </body>
+</html>

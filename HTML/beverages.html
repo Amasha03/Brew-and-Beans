@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+        <head>
+            <title>BREW AND BEANS</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="search.css">
+            <link rel="stylesheet" type="text/css" href="../CSS/beverages.css">
+            <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+
+        <body class="showBag">
+            <header>
+            <div class="nav">
+            <div class="topnav">
+                <div class="search-container">
+                    <input id="searchInput" type="text" placeholder=" Search....">
+                    <button id="searchButton"><img src="../Images/searchx.png" alt="search"></button>
+                    <div class="search-results" id="searchResults"></div>
+                </div>
+                <button class="btn" class="mybag" id="cartButton" onclick="toggleCart()"><img src="../Images/bagx.png" alt="mybag"></button>
+                    <span class="cartIcon" >0</span>
+                <button class="btn"><a href="../HTML/loginpage.html"><img src="../Images/userx.png" alt="profile"></a></button>
+                <div class="more">
+                    <button class="btn"><img src="../Images/morex.png" alt="more"></i>
+                
+                    <div class="more-dropdown">
+                        <a href="../HTML/aboutus.html">ABOUT US</a>
+                        <a href="##">EVENTS</a>
+                    </div>
+                    </button>
+                </div>
+            </div>
+            
+            <img id="logo" src="../Images/logo.png" alt="logo">  
+            
+            
+            
+            <nav class="navbar">
+                <ul>
+                    <li id="name">BREW & BEANS</li>
+                    <li class="categories"><button class="icons"><img src="../Images/homex.png" alt="home"></button><br/><a href="../HTML/coursework.html">HOME</a></li>
+                    <li class="categories"><button class="icons"><img src="../Images/flashx.png" alt="promotions"></button><br/><a href="../HTML/promotions.html">PROMOTIONS</a></li>
+                    <div class="dropdown">
+                    <li class="categories"><button class="icons"><img src="../Images/menux.png" alt="menu"></button><br/><a href="#menu">MENU</a></li>
+                        <div class="dropdown-content">
+                            <a href="../HTML/food.html">FOOD</a>
+                            <a href="../HTML/beverages.html">BEVERAGES</a>
+                            <a href="../HTML/desserts.html">DESSERTS</a>
+                        </div>
+                    </div>
+                    <li class="categories"><button class="icons"><img src="../Images/phone.png" alt="contact"></button><br/><a href="../HTML/contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            </div>
+            </header>
+
+
+            <div class="title">
+                BEVERAGES
+            </div>
+
+            <div class="filterButtons">
+                <button data-filter="all" class="active" id="all">Show all</button>
+                <button data-filter="caffeine" id="caffeine">Caffeine-Based</button>
+                <button data-filter="dairy" id="dairy">Dairy-Based</button>
+                <button data-filter="fruit" id="fruit">Fruit-Based</button>
+            </div>
+
+            <div class="beverage" id="beverages"> 
+                <div id="item">
+                    <img src="../Images/b1.jpg" alt="Americano" width="300px" height="300px">
+                    <h2>Americano</h2>
+                    <div class="price">$4.0</div>
+                   <button class="addBag" id="addToCart" onclick="addToCart()">ADD TO BAG</button>
+                </div>
+            </div>
+
+            <div class="bagTab" id="cart">
+                <div class="showBag">
+                <h1>Shopping Bag</h1>
+                <div class="bagList" id="bagList">
+                    <div class="item">
+                        <div class="image">
+                            <img src="../Images/d1.png" alt="cheese cake">
+                        </div>
+                        <div class="name">
+                            NAME
+                        </div>
+                        <div class="totalPrice">
+                            $12.5
+                        </div>
+                        <div class="quantity">
+                            <div class="minus">-</div>
+                            <div class="qty">1</div>
+                            <div class="plus">+</div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="bagBtn">
+                <div class="close" id="close" onclick="closeCart()">CLOSE</div>
+                <div class="checkOut">CHECK OUT</div>
+            </div>
+            </div>
+        </div>  
+        </div>
+
+
+            <footer>
+                <table class="footer">
+                    <tr><th>CONTACT US</th>
+                    <th>CONNECT WITH US</th>
+                    <th>LOCATION</th>
+                    <th>PRIVACY POLICY</th></tr>
+                    <tr>
+                        <td id="mail"><a href="mailto:amasha.20241246@iit.ac.lk">brewnbeans@gmail.com</a></td>
+                        <td>
+                            <button class="social"><img src="../Images/facebook1.png" alt="facebook"></button>
+                            <button class="social"><img src="../Images/instagram1.png" alt="instagram"></button>
+                        </td>
+                        <td>BREWNBEANS,GARDENIA RD,COLOMBO 05</td>
+                        <td><i class="fa fa-copyright"> Copyrights 2025 BrewnBeans</i></td>
+                    </tr>
+                    <tr>
+                        <td>0710663376</td>
+                        <td></td>
+                        <td></td>
+                        <td>All Rights Reserved</td>
+                    </tr>
+                </table>              
+            </footer>
+
+            <script src="../JavaScript/carts.js"></script>
+            <script src="../JavaScript/beverages.js"></script>
+            
+        </body>
+</html>

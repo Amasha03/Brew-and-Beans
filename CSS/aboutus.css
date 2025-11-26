@@ -1,0 +1,508 @@
+body {
+    background-color: black;
+}
+
+.topnav {
+    text-align: right ;
+    float:right;
+    display: flex;
+}
+
+#sb {
+    background-color:rgb(255,193,92);
+    border:none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.icons {
+    font-size: larger;
+    background-color: rgba(53, 22, 3,0.5);
+    border:none;
+    color:rgb(255, 193, 92);
+}
+
+
+#sbb {
+    background-color:rgb(255,193,92);
+    border:none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navbar{
+    margin-top: -80px;
+}
+
+
+div {
+    display:flex;
+    justify-content: center;
+    
+}
+
+
+#logo {
+    width: 82px;
+    height: 82px;
+    display: block;
+    clip-path: circle(50%);
+    justify-content:left;
+    margin:5px;
+}
+
+
+.btn {
+    background-color:black;
+    border:none;
+    color:rgb(255, 193, 92);
+    font-size: larger; 
+}  
+
+nav {
+    margin-top: -80px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    margin-right: 20px;
+    background-color: rgba(53, 22, 3,0.5);
+}
+
+
+.categories:hover  {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px  rgba(175, 119, 82, 0.925);
+    cursor: pointer;
+    color:black;
+    
+}
+
+
+
+li {
+    display:inline-block;
+    text-align: center;
+    padding:5px 70px 3px;
+}
+
+li a {
+    color:rgb(255, 193, 92);
+    text-decoration:solid;
+}
+
+
+
+#name {
+    color:rgb(255,165,109);
+    font-size:xx-large;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 0px;
+}
+
+
+
+.dropdown {
+    position:relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display:none;
+    position:absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px white;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(175, 119, 82, 0.925);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.more {
+    position: relative;
+    display: inline-block;
+}
+
+.more-dropdown{
+    display:none;
+    position: absolute;
+    background-color: black;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px white;
+    z-index: 1;
+    right: 10%;
+}
+
+.more-dropdown a {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.more-dropdown a:hover {
+    background-color: rgba(175, 119, 82, 0.925);
+}
+
+.more:hover .more-dropdown {
+    display: block;
+}
+
+
+/*cart items count*/
+.cartIcon{
+    font-size:15px;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 193, 92);
+    border-radius: 50%;
+    position: absolute;
+    top: 4%;
+    right: 6%;
+    border-color: rgb(255, 193, 92) ;
+    border: 1px solid;
+}
+
+div {
+    display:flex;
+    justify-content: center;
+    
+}
+
+
+.mainimage{
+    position: relative;
+}
+
+#makingDesserts{
+    width:100%;
+    opacity: 0.3;  
+}
+
+#aboutus{
+    position: absolute;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 193, 92);
+    top: 35%;
+    left: 40%;
+
+}
+
+#navigation{
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 46%;
+    left: 42%;
+}
+
+.navlink{
+    color:white;
+}
+
+
+
+#storyTopic{
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 193, 92);
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+
+
+
+#story{
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 100px;
+    color: white;
+    width: 50%;
+    font-size:medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#storyimg{
+    width:25%;
+    float:right;
+    margin-top: 50px;
+    margin-right: 3%;
+    opacity: 0.8;
+}
+
+#missionimg{
+    width: 25%;
+    margin-top: 0%;
+    margin-left: 5%;
+}
+
+#mission{
+    margin-top: 10%;
+    margin-left: 35%;
+    color: white;
+    width: 50%;
+    font-size:medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+#missionTopic{
+    margin-bottom: 1%;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 193, 92);
+    margin-left: -300px;
+    
+}
+
+.missionParagraph{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+
+/*heading of the cart*/
+.h1{
+    color: aliceblue;
+    font-family: 'Poppins';
+}
+
+.bagTab{
+    display: none;
+}
+
+.bagTab .showBag{
+    display: block;
+}
+
+/*cart tab*/
+.bagTab{
+    float: right;
+    margin-top: 8.5%;
+    width: 400px;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    right: -400px;
+    grid-template-rows: 70px 1fr 70px;
+    transition: 1s;
+    overflow: auto;
+}   
+
+body.showBag .bagTab{
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+}
+
+body.showBag .container{
+    transform:translateX(-250px);
+}
+
+/*items of the cart*/
+#item{
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    font-family: "Poppins";
+}
+
+
+#price{
+    letter-spacing: 5px;
+    font-size: medium;
+}
+
+.bagTab h1{
+    color:black;
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+    font-family: "Poppins";
+    
+}
+
+.bagList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+}
+
+.bagTab .bagBtn{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: none;
+    font-family: "Poppins";
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+/*checkout button in cart*/
+.bagTab .bagBtn .checkOut{
+    background-color: rgba(161, 92, 49, 0.849);
+    color: black;
+    text-align: center;
+    padding: 8%;
+
+}
+
+/*close button in cart*/
+.bagTab .bagBtn .close{
+    background-color: rgba(53, 22, 3);
+    color: aliceblue;
+    text-align: center;
+    padding: 8%;
+}
+
+/*item images in cart*/
+.bagTab .bagList .item img{
+    width: 100%;
+}
+
+.bagTab .bagList .item{
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+/*quantity of items in cart*/
+.bagList .quantity .qty {
+
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(161, 92, 49, 0.5);
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bagList .quantity .minus{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(161, 92, 49, 0.5);
+    border-color: rgba(161, 92, 49, 0.5);
+    color: black;
+    border-radius: 50%;
+    cursor: pointer; 
+}
+
+.bagList .quantity .plus{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(161, 92, 49, 0.5);
+    border-color: rgba(161, 92, 49, 0.5);
+    color: black;
+    border-radius: 50%;
+    cursor: pointer; 
+}
+
+
+.bagList .quantity:nth-child(2){
+    background-color: transparent;
+    color: black;
+}
+
+.bagList .item:nth-child(even){
+    background-color:rgba(161, 92, 49, 0.11) ;
+}
+
+.bagTab{
+    overflow:auto;
+    display: none;
+}
+
+/*scroll bar in the cart*/
+.bagTab::-webkit-scrollbar{
+    width: 0%;
+    display: none;
+}
+
+.active .bagTab{
+    left: calc(100% - 500px);
+}
+
+
+@media screen and (max-width:992px){
+    .bagList{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#mail a {
+    color: rgb(255,193,92);
+}
+
+a {
+    color: rgb(255,193,92);
+}
+
+.footer {
+    color:rgb(255,193,92);
+    text-align: center;
+    background-color: rgb(53, 22, 3);
+    margin-top: 10%;
+    margin-bottom: 15px;
+}
+
+table {
+    padding: 1px;
+    width:100%;
+}
+
+
+th,td {
+    border-style: none;
+
+}
+
+.social {
+    font-size:x-large;
+    background-color:rgb(53, 22, 3);
+    border:none;
+    color:rgb(255,193,92);
+}
+
+.social a{
+    color: rgb(255,193,92);
+}

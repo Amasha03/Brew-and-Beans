@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+
+    <food id="1">
+        <id>1</id>
+        <name>Chicken Burger</name>
+        <category>burger</category>
+        <image>../Images/f1.png</image>
+        <price>$5.0</price>
+        <description>A juicy grilled chicken patty in a soft bun,topped with lettuce, tomato, cheese and sauces</description>
+    </food>
+
+     <food id="2">
+        <id>2</id>
+        <name>Bacon and Tomato Grilled Cheese Sandwich</name>
+        <category>sandwich</category>
+        <image>../Images/f2.png</image>
+        <price>$6.5</price>
+        <description>A crispy bacon, juicy tomato slices and gooey melted cheese between buttery, toasted bread</description>
+    </food>
+
+    <food id="3">
+        <id>3</id>
+        <name>Tuna Cucumber Sandwich</name>
+        <category>sandwich</category>
+        <image>../Images/f3.png</image>
+        <price>$4.2</price>
+        <description>Creamy tuna salad and crisp cucumber slices, served between soft bread</description>
+    </food>
+
+    <food id="4">
+        <id>4</id>
+        <name>Grilled Chicken Bagel</name>
+        <category>other</category>
+        <image>../Images/f4.png</image>
+        <price>$5.0</price>
+        <description>Grilled chicken,fresh lettuce and tomato toppings, and a choice of sauses, all served on a toasted bagel</description>
+    </food>
+
+    <food id="5">
+        <id>5</id>
+        <name>Tuna Croissant Sandwich</name>
+        <category>sandwich</category>
+        <image>../Images/f5.png</image>
+        <price> $6.2</price>
+        <description>A delicious and flaky sandwich made with creamy tuna salad served inside a buttery,golden croissant</description>
+    </food>
+
+    <food id="6">
+        <id>6</id>
+        <name>Beetroot Lamb Burger</name>
+        <category>burger</category>
+        <image>../Images/f6.png</image>
+        <price> $11.0</price>
+        <description>Seasoned lamb patty and beetroot served on a soft bun with lettuce, cheese and sauce toppings</description>
+    </food>
+
+    <food id="7">
+        <id>7</id>
+        <name>Pistachio Croissant</name>
+        <category>croissant</category>
+        <image>../Images/f7.png</image>
+        <price> $9.5</price>
+        <description>Buttery pastry filled with a rich pistachio cream and topped with crushed pistachios</description>
+    </food>
+
+    <food id="8">
+        <id>8</id>
+        <name>Ham and Cheese Croissant</name>
+        <category>croissant</category>
+        <image>../Images/f8.png</image>
+        <price> $10.0</price>
+        <description> A buttery,flaky pastry filled with savory ham and melted cheese</description>
+    </food>
+
+    <food id="9">
+        <id>9</id>
+        <name>Garlic Bread</name>
+        <category>other</category>
+        <image>../Images/f9.png</image>
+        <price> $5.0</price>
+        <description>Crispy, buttery bread infused with garlic and herbs, toasted to golden perfection</description>
+    </food>
+
+    <food id="10">
+        <id>10</id>
+        <name>Cheese Garlic Bread</name>
+        <category>other</category>
+        <image>../Images/f10.png</image>
+        <price> $7.0</price>
+        <description>Crispy, buttery bread infused with garlic and topped with melted cheese</description>
+    </food>
+
+    <food id="11">
+        <id>11</id>
+        <name>Chicken and Spinach Baguette</name>
+        <category>other</category>
+        <image>../Images/f11.png</image>
+        <price> $8.5</price>
+        <description>Sandwich made with tender grilled chicken,fresh spinach, and flavorful sauses, all served in a crispy baguette</description>
+    </food>
+
+    <food id="12">
+        <id>12</id>
+        <name>Cheese Mini Pizza</name>
+        <category>other</category>
+        <image>../Images/f12.png</image>
+        <price> $4.0</price>
+        <description>Small, individual-sized pizza topped with melted cheese and a savory tomato sauce</description>
+    </food>
+
+    <food id="13">
+        <id>13</id>
+        <name>Chicken Mini Pizza</name>
+        <category>other</category>
+        <image>../Images/f13.png</image>
+        <price> $4.5</price>
+        <description>Small, personal-sized pizza topped with seasoned chicken, melted cheese, and savory tomato sauce</description>
+    </food>
+
+    <food id="14">
+        <id>14</id>
+        <name>Crispy French Fries</name>
+        <category>other</category>
+        <image>../Images/f14.png</image>
+        <price> $4.0</price>
+        <description>Golden, crunchy, and perfectly seasoned fries, made from fresh potatoes</description>
+    </food>
+
+    <food id="15">
+        <id>15</id>
+        <name>Grilled Chocolate Sandwich</name>
+        <category>sandwich</category>
+        <image>../Images/f15.png</image>
+        <price> $6.0</price>
+        <description>Warm, indulgent treat made by grilling bread with rich chocolate between the slices</description>
+    </food>
+
+    <food id="16">
+        <id>16</id>
+        <name>Chocolate Almond Croissant</name>
+        <category>croissant</category>
+        <image>../Images/f16.png</image>
+        <price> $6.5</price>
+        <description>Flaky, buttery pastry filled with rich chocolate and almond cream, topped with sliced almonds</description>
+    </food>
+
+    <food id="17">
+        <id>17</id>
+        <name>Lasagna</name>
+        <category>other</category>
+        <image>../Images/f17.png</image>
+        <price> $8.0</price>
+        <description>Classic italian dish made with layers of pasta, rich meat sauces, creamy cheese, and melted mozzarella, baked until bubbly and golden</description>
+    </food>
+
+    <food id="18"> 
+        <id>18</id>
+        <name>BnB Rice</name>
+        <category>other</category>
+        <image>../Images/f18.png</image>
+        <price> $12.0</price>
+        <description>Savory, flavorful dish made with cooked rice with vegetables and seasonings, topped with fried chicken</description>
+    </food>
+
+</menu>

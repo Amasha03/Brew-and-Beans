@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <dessert id="1">
+    <id>1</id>
+    <name>Cheese Cake</name>
+    <category>cake</category>
+    <price>$12.5</price>
+    <description>A creamy and decadent dessert with a smooth, velvety filling made from cream cheese, sugar, and vanilla, resting on a buttery graham cracker crust</description>
+    <image>../Images/d1.png</image>
+    </dessert>
+
+    <dessert id="2">
+    <id>2</id>
+    <name>Red Velvet Cake</name>
+    <category>cake</category>
+    <price>$6.0</price>
+    <description>A rich and moist cake with a striking red color, paired with a creamy and tangy cream cheese frosting</description>
+    <image>../Images/d2.png</image>
+    </dessert>
+
+    <dessert id="3"> 
+    <id>3</id>
+    <name>Chocolate Brownie</name>
+    <category>sweets</category>
+    <price>$4.5</price>
+    <description>A rich and fudgy chocolate treat, crispy on the outside and soft on the inside</description>
+    <image>../Images/d3.png</image>
+    </dessert>
+
+    <dessert id="4">
+    <id>4</id>
+    <name>Chocolate Muffin</name>
+    <category>sweets</category>
+    <price>$6.5</price>
+    <description>A soft and fluffy muffin packed with rich chocolate flavor</description>
+    <image>../Images/d4.png</image>
+    </dessert>
+
+    <dessert id="5">
+    <id>5</id>
+    <name>Blueberry Muffin</name>
+    <category>sweets</category>
+    <price>$6.0</price>
+    <description>A soft and moist muffin bursting with juicy blueberries</description>
+    <image>../Images/d5.png</image>
+    </dessert>
+
+    <dessert id="6">
+    <id>6</id>
+    <name>Truffles</name>
+    <category>sweets</category>
+    <price>$4.5</price>
+    <description>Indulgent bite-sized chocolates with a rich, creamy center, coated in cocoa powder, nuts, or chocolate shavings</description>
+    <image>../Images/d6.png</image>
+    </dessert>
+
+    <dessert id="7">
+    <id>7</id>
+    <name>Ice Cream Sundae</name>
+    <category>ice-cream</category>
+    <price>$10.0</price>
+    <description>A classic dessert featuring scoops of creamy ice cream topped with your choice of sauces, whipped cream, nuts, and a cherry on top</description>
+    <image>../Images/d7.png</image>
+    </dessert>
+
+</menu>

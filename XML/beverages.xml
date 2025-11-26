@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <beverage id="1">
+    <id>1</id>
+    <name>Americano</name>
+    <category>caffeine</category>
+    <price>$4.0</price>
+    <description>A smooth and strong coffee made by mixing espresso with hot water</description>
+    <image>../Images/b1.jpg</image>
+    </beverage>
+
+    <beverage id="2">
+    <id>2</id> 
+    <name>Cappuccino</name>
+    <category>caffeine</category>
+    <price>$5.0</price>
+    <description>A creamy and indulgent coffee made with equal parts espresso, steamed milk, and velvety milk foam</description>
+    <image>../Images/b2.png</image>
+    </beverage>
+
+    <beverage id="3">
+    <id>3</id>
+    <name>Cafe Mocha</name>
+    <category>dairy</category>
+    <price>$6.0</price>
+    <description>A delicious blend of rich espresso, creamy steamed milk, and decadent chocolate, topped with a light layer of whipped cream</description>
+    <image>../Images/b3.png</image>
+    </beverage>
+
+    <beverage id="4">
+    <id>4</id>
+    <name>Cafe Latte</name>
+    <category>caffeine</category>
+    <price>$5.5</price>
+    <description>A smooth and creamy coffee made with a shot of espresso and steamed milk, topped with a light layer of foam</description>
+    <image>../Images/b4.png</image>
+    </beverage>
+
+    <beverage id="5">
+    <id>5</id>
+    <name>Hot Chocolate</name>
+    <category>dairy</category>
+    <price>$4.5</price>
+    <description>A rich and creamy treat made with velvety chocolate and steamed milk, topped with a fluffy cloud of whipped cream or marshmallows</description>
+    <image>../Images/b5.png</image>
+    </beverage>
+
+    <beverage id="6">
+    <id>6</id>
+    <name>Espresso</name>
+    <category>caffeine</category>
+    <price>$6.0</price>
+    <description>A concentrated shot of pure coffee, brewed by forcing hot water through finely-ground coffee beans</description>
+    <image>../Images/b6.png</image>
+    </beverage>
+
+    <beverage id="7">
+    <id>7</id>
+    <name>Caramel Macchiato</name>
+    <category>dairy</category>
+    <price>$8.0</price>
+    <description>A sweet and creamy coffee made with espresso, steamed milk, and vanilla syrup, topped with a drizzle of rich caramel</description>
+    <image>../Images/b7.png</image>
+    </beverage>
+
+    <beverage id="8">
+    <id>8</id>
+    <name>Matcha Latte</name>
+    <category>dairy</category>
+    <price>$7.0</price>
+    <description>A smooth and vibrant drink made with finely ground green tea powder, steamed milk, and a touch of sweetness</description>
+    <image>../Images/b8.png</image>
+    </beverage>
+
+    <beverage id="9">
+    <id>9</id>
+    <name>Oreo Milkshake</name>
+    <category>dairy</category>
+    <price>$13.0</price>
+    <description>A creamy and decadent treat blended with rich vanilla ice cream, milk, and chunks of Oreo cookies. Topped with whipped cream and extra cookie crumbles</description>
+    <image>../Images/b9.png</image>
+    </beverage>
+
+    <beverage id="10">
+    <id>10</id>
+    <name>Blueberry Frappe</name>
+    <category>dairy</category>
+    <price>$16.0</price>
+    <description>A cool and fruity blended drink made with sweet blueberries, creamy milk, and a hint of vanilla topped with whipped cream</description>
+    <image>../Images/b10.jpg</image>
+    </beverage>
+
+    <beverage id="11">
+    <id>11</id>
+    <name>Milo Shake</name>
+    <category>dairy</category>
+    <price>$8.5</price>
+    <description>A creamy and chocolatey delight made with rich Milo powder, cold milk, and a scoop of ice cream</description>
+    <image>../Images/b11.png</image>
+    </beverage>
+
+</menu>

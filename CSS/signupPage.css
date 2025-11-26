@@ -1,0 +1,100 @@
+body{
+    background-color:rgba(53, 22, 3,1);
+}
+
+#logo{
+    height:15%;
+    width:15%;
+    border-radius: 100%;
+    margin-left: 40%;
+    margin-top: 10px;
+    
+}
+
+#name{
+    color:rgba(53, 22, 3,1);
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 20%;
+    margin-top: 0%;
+    margin-bottom: 25px;
+}
+
+#description{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration:rgba(53, 22, 3,1) ;
+}
+
+.signup{
+    margin-left: 37%;
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    
+}
+
+input{
+    width: 80%;
+    border-radius: 5px;
+    border:2px solid rgba(53, 22, 3,1) ;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+#signupButton{
+    width: 80%;
+    border-radius: 5px;
+    background-color:rgba(53, 22, 3,1) ;
+    border:2px solid rgba(53, 22, 3,1) ;
+    color: white;
+    padding: 10px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#signupButton:hover{
+    background-color:rgb(78, 37, 12) ;
+    border:2px solid rgb(78, 37, 12);
+}
+
+
+
+.signupPage{
+    margin-top: 30px;
+}
+
+#terms{
+    text-align: center;
+    color: rgba(53, 22, 3,1);
+}
+
+.links{
+    color:black;
+}
+
+
+
+.login{
+    margin-left: 37%;
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+#haveAccount{
+    text-align: center;
+    color: rgba(53, 22, 3,1);
+}
+
+#login{
+    color:rgba(53, 22, 3,1) ;
+    border-color:black;
+    border-radius: 5px;
+    background-color: white;
+}
